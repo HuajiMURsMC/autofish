@@ -1,0 +1,13 @@
+package troy.autofish.gui;
+
+import troy.autofish.FabricModAutofish;
+import com.terraformersmc.modmenu.api.*;
+
+public class ModMenuApiImpl implements ModMenuApi {
+    @Override
+    public ConfigScreenFactory<?> getModConfigScreenFactory() {
+		return screen -> {
+            
+        };
+	}
+}
